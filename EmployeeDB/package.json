@@ -6,9 +6,35 @@
     "start": "node app"
   },
   "dependencies": {
-    "express": "3.1.0",
-    "jade": "*",
-    "stylus": "*",
-    "mongodb": ">= 0.9.6-7"
+  "express": "3.1.0",
+  "jade": "*",
+  "stylus": "*",
+  "mongodb": ">= 0.9.6-7",
+	"axios": "^0.16.2",
+	"moment": "^2.18.1",     
+	"react": "^15.5.4",     
+	"react-bootstrap": "^0.31.0",     
+	"react-dom": "^15.5.4",     
+	"react-dropzone": "^3.13.3",     
+	"react-loader": "^2.4.2",     
+	"react-redux": "^5.0.5",     
+	"react-router-dom": "^4.1.1",     
+	"redux": "^3.6.0",     
+	"redux-logger": "^3.0.6",     
+	"redux-thunk": "^2.2.0",     
+	"uuid-validate": "0.0.2"   
+	},   
+	"devDependencies": {    
+	"enzyme": "^2.8.2",     
+	"jest-enzyme": "^3.2.0",     
+	"react-addons-test-utils": "^15.6.0",    
+	"react-scripts": "1.0.7",     
+	"react-test-renderer": "^15.6.1"  
+	},   
+	"scripts": {     
+	"start": "react-scripts start",     
+	"build": "react-scripts build",     
+	"test": "react-scripts test --env=jsdom",    
+	"eject": "react-scripts eject"
   }
 }
